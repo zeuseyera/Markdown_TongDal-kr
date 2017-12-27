@@ -38,22 +38,18 @@
 ## 이것은 글머리2인 <h2>의 식별자 이다
 ###### 이것은 글머리6인 <h6>의 식별자 이다
 ```
-# 이것은 글머리1인 <h1>의 식별자 이다
-## 이것은 글머리2인 <h2>의 식별자 이다
-###### 이것은 글머리6인 <h6>의 식별자 이다
+> # 이것은 글머리1인 \<h1>의 식별자 이다
+> ## 이것은 글머리2인 \<h2>의 식별자 이다
+> ###### 이것은 글머리6인 \<h6>의 식별자 이다
 
 # 강조(Emphasis)
 ```
-*이 문자는 기울임이다*
-_이것 또한 기울임이다_
-**This text will be bold**
-__This will also be bold__
-_You **can** combine them_
+*이 문자는 기울어진다*
+_이것 또한 기울어진다_
+**이 문자는 강조된다**
+__이것 또한 강조된다__
+_이것을 **조합**할 수 있다_
 ```
-*This text will be italic*
-_This will also be italic_
-**This text will be bold**
-__This will also be bold__
-_You **can** combine them_
+> 
 
 
