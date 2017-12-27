@@ -24,27 +24,36 @@
 더 자세한 정보는, 깃허브 도우미에서 "[깃허브에 기록(Writing on Github)]"(https://help.github.com/categories/writing-on-github/)을 참조.
 
 ## 본보기(Examples)
-표식하기로 어떤 단어를 \*\*강조\*\* 그리고 다른 단어를 \*기울임\* 을 아주 쉽게 만들 수 있다. 심지어 \[구글에 연결!](http://google.com)을 할 수 있다.
-
 ```bash
 표식하기로 어떤 단어를 **강조** 그리고 다른 단어를 *기울임* 을 아주 쉽게 만들 수 있다. 심지어 [구글에 연결!](http://google.com)을 할 수 있다.
 ```
+표식하기로 어떤 단어를 **강조** 그리고 다른 단어를 *기울임* 을 아주 쉽게 만들 수 있다. 심지어 [구글에 연결!](http://google.com)을 할 수 있다.
 
 ## 문법 안내(Syntax guide)
 다음은 표식하기 문법의 요약이다 이것은 GitHub.com의 어디에서나 또는 자신의 문자 파일에서 사용할 수 있다.
 
 ## 글머리(Headers)
-
-\# 이것은 글머리1인 <h1>의 식별자 이다
-\#\# 이것은 글머리2인 <h2>의 식별자 이다
-\#\#\#\#\#\# 이것은 글머리6인 <h6>의 식별자 이다
-
 ```bash
 # 이것은 글머리1인 <h1>의 식별자 이다
 ## 이것은 글머리2인 <h2>의 식별자 이다
 ###### 이것은 글머리6인 <h6>의 식별자 이다
 ```
+# 이것은 글머리1인 <h1>의 식별자 이다
+## 이것은 글머리2인 <h2>의 식별자 이다
+###### 이것은 글머리6인 <h6>의 식별자 이다
 
-
+# 강조(Emphasis)
+```
+*이 문자는 기울임이다*
+_이것 또한 기울임이다_
+**This text will be bold**
+__This will also be bold__
+_You **can** combine them_
+```
+*This text will be italic*
+_This will also be italic_
+**This text will be bold**
+__This will also be bold__
+_You **can** combine them_
 
 
