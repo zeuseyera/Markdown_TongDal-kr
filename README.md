@@ -1,4 +1,4 @@
-# 표식하기 익히기'(Mastering-Markdown)'
+:kr:
 웹이나 깃허브에서 문서를 읽기 쉽게 표현하기 위한 방법
 
 출처: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
