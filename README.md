@@ -244,41 +244,41 @@ _이것을 **조합**할 수 있다_
 ```
 * 항목 1
 * 항목 2
- * 항목 1)
- * 항목 2) 
+  * 항목 1)
+  * 항목 2) 
 ```
 * 항목 1
 * 항목 2
- * 항목 1)
- * 항목 2) 
+  * 항목 1)
+  * 항목 2) 
  
 #### 2)순번있는
 ```
 1. 항목 1
 1. 항목 2
- 1. 항목 1)
- 1. 항목 2) 
+  1. 항목 1)
+  1. 항목 2) 
 ```
 1. 항목 1
 1. 항목 2
- 1. 항목 1)
- 1. 항목 2)
+  1. 항목 2-1)
+  1. 항목 2-2)
 
 ### 5) 이미지
 ```
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![깃허브 상징](/images/logo.png)
+양식: ![문자로 대체](url)
 ```
-![GitHub Logo](/images/logo.png)  
-Format: ![Alt Text](url)
+![깃허브 상징](/images/logo.png)  
+양식: ![문자로 대체](url)
 
 ### 6) 연결
 ```
 http://github.com - automatic!
-[GitHub](http://github.com)
+[깃허브](http://github.com)
 ```
 http://github.com - automatic!  
-[GitHub](http://github.com)
+[깃허브](http://github.com)
 
 ### 7) 인용문
 ```
