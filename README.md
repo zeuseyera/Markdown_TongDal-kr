@@ -315,18 +315,18 @@ function fancyAlert(arg)
     }
 }
 ```
-또한 공백 4개로 간단하게 코드 들여쓰기를 할 수 있다:
-    function fancyAlert(arg)
-    {
-        if(arg)
-        {
-            $.facebox( {div:'#foo'} )
-        }
+또한 공백 4개로 간단하게 코드 들여쓰기를 할 수 있다:  
+    function fancyAlert(arg)  
+    {  
+        if(arg)  
+        {  
+            $.facebox( {div:'#foo'} )  
+        }  
     }  
-여기는 문법강조가 없는 파이썬 코드의 본보기다:
-def foo():
-    if not bar:
-        return True
+여기는 문법강조가 없는 파이썬 코드의 본보기다:  
+def foo():  
+    if not bar:  
+        return True  
 
 ### 3) 작업 목록
 - [x] @언급, #참조, [연결](), **양식설정**, 그리고 <del>취소</del> 를 지원한다
@@ -355,9 +355,9 @@ SHA-1 언급 수용에서 모든 참조는 깃허브에서 수용에 대한 연�
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ```
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+16c999e8c71134401a78d4d46435517b2271d6ac  
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac  
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac  
 
 ### 6) 저장소 내에서 쟁점참조
 쟁점 또는 요청 끌어오기를 나타내는 모든 숫자는 연결로 자동적으로 변환된다
@@ -366,8 +366,8 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo#1
 mojombo/github-flavored-markdown#1
 ```
-#1
-mojombo#1
+#1  
+mojombo#1  
 mojombo/github-flavored-markdown#1  
 
 ### 7) 사용자명 @언급
@@ -380,6 +380,6 @@ mojombo/github-flavored-markdown#1 
 두개의 물결기호(tilde)로 감싼(~~이것~~ 처럼) 모든 단어는 횡단되어 나타난다.
 
 ### 10) 감성기호
-깃허브는 감성기호를 지원한다! :sparkles: :camel: :boom:
+깃허브는 감성기호를 지원한다! :sparkles: :camel: :boom:  
 우리가 지원하는 모든 이미지의 목록을 보려면, [감성기호 요약 쪽지](http://www.emoji-cheat-sheet.com/)를 확인해라.
 
