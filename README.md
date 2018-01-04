@@ -71,13 +71,19 @@
   - 그리고 이것
   
 ### 3) 이미지
-```
 이미지 소박이가 필요하다면, 이것을 어떻게 하는가:
-
+```
+<p align="left"><img width="10%" src="images/yaktocat.png" /></p>
+<p align="center"><img width="10%" src="images/yaktocat.png" /></p>
+<p align="right"><img width="10%" src="images/yaktocat.png" /></p>
+<p align="center"><img width="50%" src="images/yaktocat.png" /></p>
 ![약토캣 이미지](https://octodex.github.com/images/yaktocat.png)
 ```
 이미지 소박이가 필요하다면, 이것을 어떻게 하는가:
-
+<p align="left"><img width="10%" src="images/yaktocat.png" /></p>
+<p align="center"><img width="10%" src="images/yaktocat.png" /></p>
+<p align="right"><img width="10%" src="images/yaktocat.png" /></p>
+<p align="center"><img width="50%" src="images/yaktocat.png" /></p>
 ![약토캣 이미지](images/yaktocat.png)
 
 ### 4) 글머리 & 따옴표
