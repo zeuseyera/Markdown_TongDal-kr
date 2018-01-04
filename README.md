@@ -78,7 +78,7 @@
 ```
 이미지 소박이가 필요하다면, 이것을 어떻게 하는가:
 
-![약토캣 이미지](https://octodex.github.com/images/yaktocat.png)
+![약토캣 이미지](images/yaktocat.png)
 
 ### 4) 글머리 & 따옴표
 ```
@@ -265,10 +265,10 @@ _이것을 **조합**할 수 있다_
 
 ### 5) 이미지
 ```
-![깃허브 상징](/images/logo.png)
+![깃허브 상징](/images/GitHub-Mark.png)
 양식: ![문자로 대체](url)
 ```
-![깃허브 상징](/images/logo.png)  
+![깃허브 상징](/images/GitHub-Mark.png)  
 양식: ![문자로 대체](url)
 
 ### 6) 연결
