@@ -279,9 +279,11 @@ _이것을 **조합**할 수 있다_
 ### 5) 이미지
 ```
 ![깃허브 상징](/images/GitHub-Mark.png)
+
 양식: ![깃허브 상징](https://github.com/zeuseyera/Mastering-Markdown-kr/images/GitHub-Logo.png)
 ```
 ![깃허브 상징](/images/GitHub-Mark.png)  
+
 양식: ![깃허브 상징](https://github.com/zeuseyera/Mastering-Markdown-kr/blob/master/images/GitHub-Mark.png)
 
 ### 6) 연결
