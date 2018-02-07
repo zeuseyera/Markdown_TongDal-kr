@@ -1,4 +1,4 @@
-﻿:kr:
+:kr:
 웹이나 깃허브에서 문서를 읽기 쉽게 표현하기 위한 방법
 
 출처: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
@@ -17,11 +17,11 @@
 
 ---
 ## 1. 표식하기(Markdown)는 무엇인가?
-표식하기([Markdown](http://daringfireball.net/projects/markdown/))는 웹에서 문자 서식을 지정하는 방법이다. 문서의 표시를 제어한다; 단어를 강조 또는 기울임으로 양식화, 이미지 추가, 그리고 목록 만들기는 표식하기로 할 수 있는 단지 몇 가지 이다. 주로, 표식하기는 알파벳이 아닌 기호가 몇 개 있는 일 반 문자이다, # 또는 * 같은.
+표식하기([Markdown](http://daringfireball.net/projects/markdown/))는 웹에서 문자 서식을 지정하는 방법이다. 문서의 표시를 제어한다; 단어를 강조 또는 기울임으로 양식화, 이미지 추가, 그리고 목록 만들기는 표식하기로 할 수 있는 단지 몇 가지 이다. 주로, 표식하기는 알파벳이 아닌 기호가 몇 개 있는 일 반 문자이다, **#** 또는 ***** 같은.
 
 표식하기는 깃허브 대부분의 공간에서 사용할 수 있다:
-- 요점([Gists](https://gist.github.com/)) 
-- 쟁점과 유도 요청에서 주석달기
+- 요점(Gists) 
+- 쟁점(Issues)과 요청끌어오기(Pull requests)에서 주석달기
 - .md 또는 .markdown 확장자로 된 파일들  
 더 자세한 정보는, 깃허브 도우미에서 "[깃허브에 기록(Writing on Github)](https://help.github.com/categories/writing-on-github/)"을 참조.
 
