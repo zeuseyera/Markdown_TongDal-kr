@@ -223,7 +223,9 @@
 ```
 구분선     ==> --- 
 기울임     ==> * * 또는 _ _
-강조       ==> ** ** 또는 __ __
+강조       ==> ** ** 또는 __ __
+배경       ==> ` ` (불꽃)
+취소       ==> ~~ ~~ (물결)
 강제줄바꿈  ==> 문장끝에 공백 2개를 연속으로 삽입한다
 ```
 
@@ -242,10 +244,16 @@
 *이 문자는 기울어진다* _이것 또한 기울어진다_
 **이 문자는 강조된다** __이것 또한 강조된다__
 _이것을 **조합**할 수 있다_
+그리고
+`이것은 배경이있다`
+~~이것은 글자에 가로선을 추가한다~~
 ```
 > *이 문자는 기울어진다* _이것 또한 기울어진다_  
 > **이 문자는 강조된다** __이것 또한 강조된다__  
-> _이것을 **조합**할 수 있다_  
+> _이것을 **조합**할 수 있다_  
+> 그리고  
+> `이것은 배경이있다`  
+> ~~이것은 글자에 가로선을 추가한다~~  
 
 ### 4) 목록
 #### 4-1) 순번없는
@@ -372,17 +380,21 @@ def foo():
 
 ### 4) 표
 단어목록을 조합하여 표를 만들 수 있다 그리고 가로기호(하이픈)'-'으로 나눈다 (첫번째 행을 위하여)나눈다, 그리고 그런다음 세로기호(파이프)'|'로 각 열을 분리한다:
+그리고 **:** 는 정렬기호다
 ```
-첫번째 글머리 | 두번째 글머리  
------------- | ----------- |  
-조각1의 내용  | 조각2의 내용  
-첫번째 열의 내용 | 두번째열의 내용  
+| 첫번째 글머리 | 두번째 글머리 |  
+| ------------ | ----------- |  
+| 조각1의 내용  | 조각2의 내용 |  
+| 첫번째 열의 내용 | 두번째열의 내용 |  
+| :가운데정렬: | 오른쪽정렬: |  
 ```
 아래처럼 표시될 것이다:  
-첫번째 글머리 | 두번째 글머리  
------------- | ----------- |  
-조각1의 내용  | 조각2의 내용  
-첫번째 열의 내용 | 두번째열의 내용
+
+| 첫번째 글머리 | 두번째 글머리 |  
+| ------------ | ----------- |  
+| 조각1의 내용  | 조각2의 내용 |  
+| 첫번째 열의 내용 | 두번째열의 내용 |  
+| :가운데정렬: | 오른쪽정렬: |  
 
 ### 5) SHA 참조
 [SHA-1 언급](http://en.wikipedia.org/wiki/SHA-1) 수용에서 모든 참조는 깃허브에서 수용에 대한 연결로 자동적으로 변환된다.
@@ -419,7 +431,18 @@ mojombo/github-flavored-markdown#1 
 깃허브는 감성기호를 지원한다! :sparkles: :camel: :boom:  
 우리가 지원하는 모든 이미지의 목록을 보려면, [감성기호 요약 쪽지](http://www.emoji-cheat-sheet.com/)를 확인해라.
 
-### 11) 수학식 표현
+### 11) 유튜브 동영상 연결
+참조: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+```
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /></a>
+
+[![이미지 대체문자는 여기에](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+```
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /></a>
+
+[![이미지 대체문자는 여기에](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+### 12) 수학식 표현
 수학식이 표현되는지 확인
 ```
 $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
