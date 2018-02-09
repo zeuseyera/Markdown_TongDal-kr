@@ -449,6 +449,13 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 
 ### 12) 수학식 표현
 수학식이 표현되는지 확인
+
+상단에 아래 문장을 추가하면 수학식이 표시된다
+```
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+```
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+
 ```
 $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
 ```
