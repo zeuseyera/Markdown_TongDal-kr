@@ -468,12 +468,20 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
 
 
-#### 12-2) 수학식을 한줄에 표현 또는 문장안에 삽입
+#### 12-2) 수학식을 HTML 방식으로 표현
 
 ```
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 ```
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x  
+
+
+#### 12-3) 수학식을 한줄에 표현 또는 문장안에 삽입
+
+```
+$ \sum_{\forall i}{x_i^{2}} $
+```
+$ \sum_{\forall i}{x_i^{2}} $
 
 ```
 $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
