@@ -432,15 +432,20 @@ mojombo/github-flavored-markdown#1 
 우리가 지원하는 모든 이미지의 목록을 보려면, [감성기호 요약 쪽지](http://www.emoji-cheat-sheet.com/)를 확인해라.
 
 ### 11) 유튜브 동영상 연결
-참조: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-```
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /></a>
+참조: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
 
-[![이미지 대체문자는 여기에](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /></a>
+유튜브 동영상은 직접 추가할 수 없다 하지만 다음과 같이 동영상에 대한 연결이 포함된 이미지를 추가할 수 있다:  
 
-[![이미지 대체문자는 여기에](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+```
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=유튜브동영상 고유명칭은 여기에"
+target="_blank"><img src="https://img.youtube.com/vi/유튜브동영상 고유명칭은 여기에/0.jpg"
+alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /></a>
+
+[![이미지 대체문자는 여기에](https://img.youtube.com/vi/유튜브동영상 고유명칭 여기에/0.jpg)](https://www.youtube.com/watch?v=유튜브동영상 고유명칭은 여기에)
+```
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=VOC3huqHrss" target="_blank"><img src="https://img.youtube.com/vi/VOC3huqHrss/0.jpg" alt="욜로v2" width="240" height="180" border="10" /></a>
+
+[![이미지 대체문자는 여기에](https://img.youtube.com/vi/VOC3huqHrss/0.jpg)](https://www.youtube.com/watch?v=VOC3huqHrss)
 
 ### 12) 수학식 표현
 수학식이 표현되는지 확인
