@@ -8,9 +8,9 @@
 
 | 상징 | 편집기 이름 | 내려받기 주소 | 단점, 장점 |
 | :---: | ---        | --- | --- |
-| <p><img width="20%" src="images/ico_Atom.png" /></p> | Atom         | https://github.com/atom/atom.io | 사용법이 복잡함, 깃허브 보기와 가장 비슷함 |
+| ![](images/ico_Atom_50x50.png) | Atom         | https://github.com/atom/atom.io | 한글지원 안됨, 사용법이 복잡함, 깃허브 보기와 가장 비슷함 |
 |  | Notepad++    | https://notepad-plus-plus.org   | 삽입그림 표시안됨 |
-|  | MarkdownPad2 | https://markdownpad.com         | 삽입그림 표시안됨 |
+| ![MarkdownPad2](images/ico_markdownpad2_50x50.png) | MarkdownPad2 | https://markdownpad.com         | 삽입그림 표시안됨 |
 
 ---
 # 표식하기 익히기'(Mastering-Markdown)'
@@ -54,14 +54,14 @@
 
 때로는 중요한 것이 필요하다
 * 별로 행을 시작한다
-* 이익!
+* 이점!
 
 그 대신에,
 
 - 음부호는 아주 잘 동작한다
 - 그리고 종속목록이 있다면, 별 또는 음부호 앞에 공백 2개를 삽입한다:
   - 이것처름
-  - 그리고 이것
+  - 그리고 이것처럼
 ```
 때로는 순번있는 목록이 필요하다:
 1. 일
@@ -70,26 +70,26 @@
 
 때로는 중요한 것이 필요하다
 * 별로 행을 시작한다
-* 이익!
+* 이점!
 
 그 대신에,
 
 - 음부호는 아주 잘 동작한다
 - 그리고 종속목록이 있다면, 별 또는 음부호 앞에 공백 2개를 삽입한다:
   - 이것처름
-  - 그리고 이것
+  - 그리고 이것처럼
 
 ### 3) 이미지
 이미지 소박이가 필요하다면, 이것을 어떻게 하는가:
 ```
-<p align="left"><img width="10%" src="images/yaktocat.png" /></p>
-<p align="center"><img width="10%" src="images/yaktocat.png" /></p>
-<p align="right"><img width="10%" src="images/yaktocat.png" /></p>
-<p align="center"><img width="50%" src="images/yaktocat.png" /></p>
+<p align="left"><img width="10%" src="images/yaktocat.png" /></p>   <= 좌측정렬, 원본크기의 10%
+<p align="center"><img width="10%" src="images/yaktocat.png" /></p> <= 중앙정렬, 원본크기의 10%
+<p align="right"><img width="10%" src="images/yaktocat.png" /></p>  <= 우측정렬, 원본크기의 10%
+<p align="center"><img width="50%" src="images/yaktocat.png" /></p> <= 중앙정렬, 원본크기의 50%
 
-![약토캣 이미지](https://octodex.github.com/images/yaktocat.png)
+![약토캣 이미지](https://octodex.github.com/images/yaktocat.png)     <= 원본크기의 100%
 ```
-이미지 소박이가 필요하다면, 이것을 어떻게 하는가:
+소박이한 이미지가 필요하다면, 이것을 어떻게 하는가:
 <p align="left"><img width="10%" src="images/yaktocat.png" /></p>
 <p align="center"><img width="10%" src="images/yaktocat.png" /></p>
 <p align="right"><img width="10%" src="images/yaktocat.png" /></p>
@@ -111,17 +111,17 @@
 > 커피. 지금까지 고안된 최고급 유기물이다... 나는 이것으로 보르그를 이겼다.
 > - 캡틴 제인웨이
 ```
-# 짜임새있는 문서
-때로는 문서를 짜임새있게 하기 위하여 글머리 수준이 다른것을 사용하는것이 유용하다.
-글머리를 생성하기 위하여 '#'으로 행을 시작한다.
-더작은 글머리 크기는 한행에 여러개의 '##'를 표시한다.
+> # 짜임새있는 문서
+> 때로는 문서를 짜임새있게 하기 위하여 글머리 수준이 다른것을 사용하는것이 유용하다.
+> 글머리를 생성하기 위하여 '#'으로 행을 시작한다.
+> 더작은 글머리 크기는 한행에 여러개의 '##'를 표시한다.
 
-### 이것은 세번째-단계 글머리다
-글머리 크기에 대해서 '#' 하나에서 '######' 6개까지 사용할 수 있다.
+> ### 이것은 세번째-단계 글머리다
+> 글머리 크기에 대해서 '#' 하나에서 '######' 6개까지 사용할 수 있다.
 
-어떤것을 인용하고 싶다면, 행의 시작에 > 기호를 사용한다:
-> 커피. 지금까지 고안된 최고급 유기물이다... 나는 이것으로 보르그를 이겼다.
-> -캡틴 제인웨이
+> 어떤것을 인용하고 싶다면, 행의 시작에 > 기호를 사용한다:
+>> 커피. 지금까지 고안된 최고급 유기물이다... 나는 이것으로 보르그를 이겼다.
+>> -캡틴 제인웨이
 
 ### 5) 코드
 ```
@@ -222,7 +222,9 @@
 너의 쟁점목록에서 도움이되는 진도막대를 볼 수 있다.
 또한, 이것은 요청당겨오기에서도 작동한다!  
 
-그리고, 당연히 이모티콘도! :sparkles: :camel: :boom:
+그리고, 당연히 그림상징(이모티콘)도! :sparkles: :camel: :boom:
+
+> 참조: [그림상징(이모티콘) 보기](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ---
 ## 3. 문법 안내(Syntax guide)
@@ -295,13 +297,13 @@ _이것을 **조합**할 수 있다_
 
 ### 5) 이미지
 ```
-![깃허브 상징](/images/GitHub-Mark.png)
+![깃허브 감성기호](/images/GitHub-Mark.png)
 
-양식: ![깃허브 상징](https://github.com/zeuseyera/Mastering-Markdown-kr/images/GitHub-Logo.png)
+양식: ![깃허브 상징](https://github.com/zeuseyera/Mastering-Markdown-kr/blob/master/images/GitHub-Logo.png)
 ```
-![깃허브 상징](/images/GitHub-Mark.png)  
+> ![깃허브 감성기호](/images/GitHub-Mark.png)  
 
-양식: ![깃허브 상징](https://github.com/zeuseyera/Mastering-Markdown-kr/blob/master/images/GitHub-Mark.png)
+> 양식: ![깃허브 상징](https://github.com/zeuseyera/Mastering-Markdown-kr/blob/master/images/GitHub-Logo.png)
 
 ### 6) 연결
 - 웹주소 연결
@@ -391,19 +393,15 @@ def foo():
 단어목록을 조합하여 표를 만들 수 있다 그리고 가로기호(하이픈)'-'으로 나눈다 (첫번째 행을 위하여)나눈다, 그리고 그런다음 세로기호(파이프)'|'로 각 열을 분리한다:
 그리고 **:** 는 정렬기호다
 ```
-| 첫번째 글머리 | 두번째 글머리 |  
-| ------------ | ----------- |  
-| 조각1의 내용  | 조각2의 내용 |  
-| 첫번째 열의 내용 | 두번째열의 내용 |  
-| :가운데정렬: | 오른쪽정렬: |  
+| 첫번째 글머리 | 두번째 글머리 | 세번째 글머리 | 네번째 글머리 |  
+| ---          | ---          | :---:        | ---:         |  
+| 첫번째 열의 내용 | 두번째열의 내용 | :가운데정렬: | 오른쪽정렬: |  
 ```
 아래처럼 표시될 것이다:  
 
-| 첫번째 글머리 | 두번째 글머리 |  
-| ------------ | ----------- |  
-| 조각1의 내용  | 조각2의 내용 |  
-| 첫번째 열의 내용 | 두번째열의 내용 |  
-| :가운데정렬: | 오른쪽정렬: |  
+| 첫번째 글머리 | 두번째 글머리 | 세번째 글머리 | 네번째 글머리 |  
+| ---          | ---          | :---:        | ---:         |  
+| 첫번째 열의 내용 | 두번째열의 내용 | :가운데정렬: | 오른쪽정렬: |  
 
 ### 5) SHA 참조
 [SHA-1 언급](http://en.wikipedia.org/wiki/SHA-1) 수용에서 모든 참조는 깃허브에서 수용에 대한 연결로 자동적으로 변환된다.
@@ -452,9 +450,9 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 
 [![이미지 대체문자는 여기에](https://img.youtube.com/vi/유튜브동영상 고유명칭 여기에/0.jpg)](https://www.youtube.com/watch?v=유튜브동영상 고유명칭은 여기에)
 ```
-<a href="https://www.youtube.com/watch?feature=player_embedded&v=VOC3huqHrss" target="_blank"><img src="https://img.youtube.com/vi/VOC3huqHrss/0.jpg" alt="욜로v2" width="240" height="180" border="10" /></a>
+> <a href="https://www.youtube.com/watch?feature=player_embedded&v=VOC3huqHrss" target="_blank"><img src="https://img.youtube.com/vi/VOC3huqHrss/0.jpg" alt="욜로v2" width="240" height="180" border="10" /></a>
 
-[![이미지 대체문자는 여기에](https://img.youtube.com/vi/VOC3huqHrss/0.jpg)](https://www.youtube.com/watch?v=VOC3huqHrss)
+> [![이미지 대체문자는 여기에](https://img.youtube.com/vi/VOC3huqHrss/0.jpg)](https://www.youtube.com/watch?v=VOC3huqHrss)
 
 ### 12) 수학식 표현
 수학식이 표현되는지 확인
@@ -464,17 +462,17 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 ```
 ![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
 ```
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+> ![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
 
 ```
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> 
 ```
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+> <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
 
 ```
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
 ```
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
+> ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
 
 
 #### 12-2) 수학식을 HTML 방식으로 표현
@@ -482,7 +480,7 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 ```
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 ```
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x 
+> h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x 
 
 
 #### 12-3) 수학식을 한줄에 표현 또는 문장안에 삽입
@@ -490,14 +488,14 @@ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x 
 ```
 $ \sum_{\forall i}{x_i^{2}} $
 ```
-$ \sum_{\forall i}{x_i^{2}} $
+> $ \sum_{\forall i}{x_i^{2}} $
 
 ```
 $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
 ```
-$$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
+> $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
 
 ```
 $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
 ```
-$$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
+> $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
