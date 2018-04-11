@@ -370,6 +370,7 @@ function fancyAlert(arg)
 ```
 
 또한 공백 4개로 간단하게 코드 들여쓰기를 할 수 있다:  
+```
     function fancyAlert(arg)  
     {  
         if(arg)  
@@ -377,17 +378,25 @@ function fancyAlert(arg)
             $.facebox( {div:'#foo'} )  
         }  
     }  
+```
 
 여기는 문법강조가 없는 파이썬 코드의 본보기다:  
+```
 def foo():  
     if not bar:  
         return True  
-
+```
 ### 3) 작업 목록
+```
 - [x] @언급, #참조, [연결](), **양식설정**, 그리고 <del>취소</del> 를 지원한다
 - [x] 목록문법 필요 (순번없는 또는 순번있는 모든 목록 지원)
 - [x] 이것은 완료된 항목이다
 - [ ] 이것은 미완료 항목이다
+```
+> - [x] @언급, #참조, [연결](), **양식설정**, 그리고 <del>취소</del> 를 지원한다
+> - [x] 목록문법 필요 (순번없는 또는 순번있는 모든 목록 지원)
+> - [x] 이것은 완료된 항목이다
+> - [ ] 이것은 미완료 항목이다
 
 ### 4) 표
 단어목록을 조합하여 표를 만들 수 있다 그리고 가로기호(하이픈)'-'으로 나눈다 (첫번째 행을 위하여)나눈다, 그리고 그런다음 세로기호(파이프)'|'로 각 열을 분리한다:
@@ -410,9 +419,9 @@ def foo():
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ```
-16c999e8c71134401a78d4d46435517b2271d6ac  
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac  
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac  
+> 16c999e8c71134401a78d4d46435517b2271d6ac  
+> mojombo@16c999e8c71134401a78d4d46435517b2271d6ac  
+> mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac  
 
 ### 6) 저장소 내에서 쟁점참조
 쟁점 또는 요청 끌어오기를 나타내는 모든 숫자는 연결로 자동적으로 변환된다
@@ -421,9 +430,9 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo#1
 mojombo/github-flavored-markdown#1
 ```
-#1  
-mojombo#1  
-mojombo/github-flavored-markdown#1 
+> #1  
+> mojombo#1  
+> mojombo/github-flavored-markdown#1 
 
 ### 7) 사용자명 @언급
 골뱅이('@') 기호를 입력하면, 사용자명 다음에, 그 사람에게 오라고 알리 것이다 그리고 주석을 본다. 이것은 "@언급(mention)"이라고 한다, 당신이 개인적으로 언급하기 때문이다. 또한 조직내의 팀을 @언급 할 수 있다.
