@@ -6,9 +6,9 @@
 ---
 **표식하기 문서편집기** (앱, 프로그램)
 
-| 상징 | 편집기 이름 | 단점, 장점 |
-| :---: | ---        | --- | --- |
-| ![비스-코드](./images/ico_vs-code_50x50.png) | 코드(Code) | 완벽한 한글지원, 가볍다, 빠르다, 지금까지 가장 좋음(2019.02.16) |  
+| 상징 | 편집기 이름 | 단점, 장점 |  
+| :---: | ---        | --- | --- |  
+| ![비스-코드](./images/ico_vs-code_50x50.png) | 코드(Code) | 완벽한 한글지원, 가볍다, 빠르다, 지금까지 가장 좋음(2019.02.16) |    
 | | | https://code.visualstudio.com |  
 | ![아톰](./images/ico_Atom_50x50.png) | 아톰(Atom)  | 한글지원 안됨, 사용법이 복잡함, 깃허브 보기와 가장 비슷함, 사용중 점점 둔해짐 |  
 | | | https://github.com/atom/atom.io |  
@@ -531,31 +531,31 @@ $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
 출처:
   - http://www.htmlhelp.com/reference/html40/entities/symbols.html
 
-| 명령 | 기호 | 설명 | |
-| --- | :---: | --- | --- | --- |
-| `&ap;` | &ap; | 비슷하다 | almost equal, asymptotic |
-| `&fnof;` | &fnof; | 함수 | function, florin |
-| `&radic;` | &radic; | 루트 | square root, radical sign |
-| `&infin;` | &infin; | 무한대 | infinity | 
-| `&alpha;, &Alpha;` | &alpha;, &Alpha; | 알파 |
-| `&beta;, &Beta;` | &beta;, &Beta; | 베타 |
-| `&delta;, &Delta;` | &delta;, &Delta; | 델타 |
-| `&epsilon;, &Epsilon;` | &epsilon;, &Epsilon; | 입실론 |
-| `&gamma;, &Gamma;` | &gamma;, &Gamma; | 감마 |
-| `&sigma;, &Sigma;` | &sigma;, &Sigma; | 시그마 |
-| `&omega;, &Omega;` | &omega;, &Omega; | 오메가 | 
-| `&lambda;, &Lambda;` | &lambda;, &Lambda; | 람다 | 
-| `&rho;, &Rho;` | &rho;, &Rho; | 로우 |
-| `&sum;, &Sum;` | &sum;, &Sum; | 합계 |
-| `&int;, &Int;` | &int;, &Int; | 인티그랄 | 
-| `&eta;, &Eta;` | &eta;, &Eta; | 에타 |
-| `&zeta;, &Zeta;` | &zeta;, &Zeta; | 제타 |
-| `&theta;, &Theta;` | &theta;, &Theta; | 세타 |
-| `&phi;, &Phi;` | &phi;, &Phi; | |
-| `&psi;, &Psi;` | &psi;, &Psi; | |
+| 명령 | 기호 | 설명 | - |  
+| --- | :---: | --- | --- | --- |  
+| `&ap;` | &ap; | 비슷하다 | almost equal, asymptotic |  
+| `&fnof;` | &fnof; | 함수 | function, florin |  
+| `&radic;` | &radic; | 루트 | square root, radical sign |  
+| `&infin;` | &infin; | 무한대 | infinity | |  
+| `&alpha;, &Alpha;` | &alpha;, &Alpha; | 알파 | |  
+| `&beta;, &Beta;` | &beta;, &Beta; | 베타 | |  
+| `&delta;, &Delta;` | &delta;, &Delta; | 델타 | |  
+| `&epsilon;, &Epsilon;` | &epsilon;, &Epsilon; | 입실론 | |  
+| `&gamma;, &Gamma;` | &gamma;, &Gamma; | 감마 | |  
+| `&sigma;, &Sigma;` | &sigma;, &Sigma; | 시그마 | |  
+| `&omega;, &Omega;` | &omega;, &Omega; | 오메가 | |  
+| `&lambda;, &Lambda;` | &lambda;, &Lambda; | 람다 | |  
+| `&rho;, &Rho;` | &rho;, &Rho; | 로우 | |  
+| `&sum;, &Sum;` | &sum;, &Sum; | 합계 | |  
+| `&int;, &Int;` | &int;, &Int; | 인티그랄 | |  
+| `&eta;, &Eta;` | &eta;, &Eta; | 에타 | |  
+| `&zeta;, &Zeta;` | &zeta;, &Zeta; | 제타 | |  
+| `&theta;, &Theta;` | &theta;, &Theta; | 세타 | |  
+| `&phi;, &Phi;` | &phi;, &Phi; | | |  
+| `&psi;, &Psi;` | &psi;, &Psi; | | |  
 
 
-| 명령 | 실제 표현 | 설명 | |
+| 명령 | 실제 표현 | 설명 | - |
 | --- | --- | --- | --- |
 | `<sup></sup>` | 앞<sup>중간</sup>뒤 | 위첨자 |
 | `<sub></sub>` | 앞<sub>중간</sub>뒤 | 아래첨자 |
