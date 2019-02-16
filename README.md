@@ -6,11 +6,21 @@
 ---
 **표식하기 문서편집기** (앱, 프로그램)
 
-| 상징 | 편집기 이름 | 내려받기 주소 | 단점, 장점 |
+| 상징 | 편집기 이름 | 단점, 장점 |
 | :---: | ---        | --- | --- |
-| ![](images/ico_Atom_50x50.png) | Atom         | https://github.com/atom/atom.io | 한글지원 안됨, 사용법이 복잡함, 깃허브 보기와 가장 비슷함 |
-|  | Notepad++    | https://notepad-plus-plus.org   | 삽입그림 표시안됨 |
-| ![MarkdownPad2](images/ico_markdownpad2_50x50.png) | MarkdownPad2 | https://markdownpad.com         | 삽입그림 표시안됨 |
+| ![비스-코드](./images/ico_vs-code_50x50.png) | 코드(Code) | 완벽한 한글지원, 가볍다, 빠르다, 지금까지 가장 좋음(2019.02.16) |  
+| | | https://code.visualstudio.com |  
+| ![아톰](./images/ico_Atom_50x50.png) | 아톰(Atom)  | 한글지원 안됨, 사용법이 복잡함, 깃허브 보기와 가장 비슷함, 사용중 점점 둔해짐 |  
+| | | https://github.com/atom/atom.io |  
+| ![노트패드](./images/ic_-Notepad-pp_50x50.png) | Notepad++ |  삽입그림 표시안됨 |  
+| | | https://notepad-plus-plus.org |  
+| ![MarkdownPad2](./images/ico_markdownpad2_50x50.png) | MarkdownPad2 | 삽입그림 표시안됨 |  
+| | | https://markdownpad.com |  
+
+```
+덧글:
+ - 마이크로소프트에서 깃허브를 2018년 10월에 인수함
+```
 
 ---
 # 표식하기 익히기'(Mastering-Markdown)'
@@ -319,20 +329,20 @@ http://github.com - 자동!
 
 ```  
 <!-- MarkdownTOC depth=4 -->  
-'문서내에서 마우스클릭으로 이동할 위치의 연결을 정의한다'  
-- [문서내에서 여기로 이동](#여기로-이동)
+`마우스 클릭으로 문서내에서 이동할 위치의 연결을 정의한다`  
+- [문서내에서 어디로 갈까?](#여기로-이동)
 
-'문서내에서 마우스를클릭하면 여기로 이동한다'
+`"#여기로-이동"으로 정의된 "문서내에서 어디로 갈까?" 연결을 마우스로 클릭하면 이동할 위치를 지정한다`
 <a name="여기로-이동"></a>
-- 여기로 이동 - "문서내에서 여기로 이동"을 마우스를 클릭하면 여기로 이동한다  
+- 여기로 이동 - "문서내에서 어디로 갈까?"를 마우스로 클릭하면 화면이 여기로 이동한다  
 ```  
 <!-- MarkdownTOC depth=4 -->  
-> '문서내에서 마우스클릭으로 이동할 위치의 연결을 정의한다'  
-> - [문서내에서 여기로 이동](#여기로-이동)  
->  
-> '문서내에서 마우스를 클릭하면 이동할 위치를 지정한다'  
-> <a name="여기로-이동"></a>  
-> - 여기로 이동 - "문서내에서 여기로 이동"을 마우스를 클릭하면 여기로 이동한다  
+`마우스 클릭으로 문서내에서 이동할 위치의 연결을 정의한다`  
+- [문서내에서 어디로 갈까?](#여기로-이동)  
+
+`"#여기로-이동"으로 정의된 "문서내에서 어디로 갈까?" 연결을 마우스로 클릭하면 이동할 위치를 지정한다`
+<a name="여기로-이동"></a>  
+- 여기로 이동 - "문서내에서 어디로 갈까?"를 마우스로 클릭하면 화면이 여기로 이동한다  
 
 
 ### 3-7) 인용문
@@ -347,12 +357,11 @@ http://github.com - 자동!
 
 ### 3-8) 내장 코드
 ```
-여기서는 대신에 '<주소>' 요소를 사용해야 된다고 생각한다.
-I think you should use an
-`<addr>` element here instead.
+내장코드를 사용해야 한다면  
+대신에 <addr> 요소를 사용한다.  
 ```
-I think you should use an
-`<addr>` element here instead.
+내장코드를 사용해야 한다면  
+대신에 <addr> 요소를 사용한다.  
 
 ---
 ## 4. 깃허브풍의 표식하기
@@ -471,14 +480,18 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 #### 4-11-1) 수학식을 latex 방식으로 그린다
 
 ```
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+![수식](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
 ```
-> ![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+> ![수식](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
 
 ```
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+<img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
 ```
 > <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+> <img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
 
 ```
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
@@ -510,3 +523,42 @@ $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
 $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
 ```
 > $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
+
+
+---
+#### 그리스 문자 및 기호 표현
+
+출처:
+  - http://www.htmlhelp.com/reference/html40/entities/symbols.html
+
+| 명령 | 기호 | 설명 | |
+| --- | :---: | --- | --- | --- |
+| `&ap;` | &ap; | 비슷하다 | almost equal, asymptotic |
+| `&fnof;` | &fnof; | 함수 | function, florin |
+| `&radic;` | &radic; | 루트 | square root, radical sign |
+| `&infin;` | &infin; | 무한대 | infinity | 
+| `&alpha;, &Alpha;` | &alpha;, &Alpha; | 알파 |
+| `&beta;, &Beta;` | &beta;, &Beta; | 베타 |
+| `&delta;, &Delta;` | &delta;, &Delta; | 델타 |
+| `&epsilon;, &Epsilon;` | &epsilon;, &Epsilon; | 입실론 |
+| `&gamma;, &Gamma;` | &gamma;, &Gamma; | 감마 |
+| `&sigma;, &Sigma;` | &sigma;, &Sigma; | 시그마 |
+| `&omega;, &Omega;` | &omega;, &Omega; | 오메가 | 
+| `&lambda;, &Lambda;` | &lambda;, &Lambda; | 람다 | 
+| `&rho;, &Rho;` | &rho;, &Rho; | 로우 |
+| `&sum;, &Sum;` | &sum;, &Sum; | 합계 |
+| `&int;, &Int;` | &int;, &Int; | 인티그랄 | 
+| `&eta;, &Eta;` | &eta;, &Eta; | 에타 |
+| `&zeta;, &Zeta;` | &zeta;, &Zeta; | 제타 |
+| `&theta;, &Theta;` | &theta;, &Theta; | 세타 |
+| `&phi;, &Phi;` | &phi;, &Phi; | |
+| `&psi;, &Psi;` | &psi;, &Psi; | |
+
+
+| 명령 | 실제 표현 | 설명 | |
+| --- | --- | --- | --- |
+| `<sup></sup>` | 앞<sup>중간</sup>뒤 | 위첨자 |
+| `<sub></sub>` | 앞<sub>중간</sub>뒤 | 아래첨자 |
+| `<ul></ul>` | 앞<ul>중간</ul>뒤 |
+| `<dl></dl>` | 앞<dl>중간</dl>뒤 |
+| `<s></s>`  | 앞<s>중간</s>뒤 |
