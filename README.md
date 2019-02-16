@@ -7,7 +7,7 @@
 **표식하기 문서편집기** (앱, 프로그램)
 
 | 상징 | 편집기 이름 | 단점, 장점 |  
-| :---: | ---        | --- | --- |  
+| :---: | ---        | --- |  
 | ![비스-코드](./images/ico_vs-code_50x50.png) | 코드(Code) | 완벽한 한글지원, 가볍다, 빠르다, 지금까지 가장 좋음(2019.02.16) |    
 | | | https://code.visualstudio.com |  
 | ![아톰](./images/ico_Atom_50x50.png) | 아톰(Atom)  | 한글지원 안됨, 사용법이 복잡함, 깃허브 보기와 가장 비슷함, 사용중 점점 둔해짐 |  
@@ -532,7 +532,7 @@ $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
   - http://www.htmlhelp.com/reference/html40/entities/symbols.html
 
 | 명령 | 기호 | 설명 | - |  
-| --- | :---: | --- | --- | --- |  
+| --- | :---: | --- | --- |  
 | `&ap;` | &ap; | 비슷하다 | almost equal, asymptotic |  
 | `&fnof;` | &fnof; | 함수 | function, florin |  
 | `&radic;` | &radic; | 루트 | square root, radical sign |  
