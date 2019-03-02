@@ -23,19 +23,61 @@
 ```
 
 ---
-# 표식하기 익히기'(Mastering-Markdown)'
+# 표식하기 통달(Mastering-Markdown)  
 
 표식하기(Markdown)는 깃허브(GitHub) 플랫폼에서 모든 글쓰기 서식을 표현하기위한 가볍고 사용하기쉬운 문법이다.
 
-**배우게 될 것:**
-- 공동으로 수정하기 쉬운 표현의 표식하기 양식을 만드는 방법
-- 일반적인 양식화 방법과 표식하기의 차이점
-- 문자를 양식화하기 위하여 표식하기를 사용하는 방법
-- 깃허브에 표식하기 표현을 자동으로 적용하는 방법
-- 깃허브에 표식하기의 고유한 확장을 적용하는 방법
+**배우게 될 것:**  
+
+- 공동으로 수정하기 쉬운 표현의 표식하기 양식을 만드는 방법  
+- 일반적인 양식화 방법과 표식하기의 차이점  
+- 문자를 양식화하기 위하여 표식하기를 사용하는 방법  
+- 깃허브에 표식하기 표현을 자동으로 적용하는 방법  
+- 깃허브에 표식하기의 고유한 확장을 적용하는 방법  
+
+### 알맹이  
+
+**1 표식하기(Markdown)는 무엇인가?**  
+
+**2 본보기(Examples)**  
+
+2-1) 간략한 본보기(Examples)  
+2-2) 목록 형식  
+2-3) 이미지 연결  
+2-4) 글머리 & 따옴표  
+2-5) 코드 표현  
+2-6) 추가기능  
+
+**3 문법 안내(Syntax guide)**  
+
+3-1) 기본문법  
+3-2) 글머리(Headers)  
+3-3) 강조(Emphasis)  
+3-4) 목록  
+3-5) 이미지  
+3-6) 연결  
+3-7) 인용문  
+3-8) 내장 코드  
+
+**4. 깃허브풍의 표식하기**  
+
+4-1) 문법 강조  
+4-2) 작업 목록  
+4-3) 표  
+4-4) SHA 참조
+4-5) 저장소 내에서 쟁점참조  
+4-6) 사용자명 @언급  
+4-7) URL에 대한 자동 연결  
+4-8) 취소선  
+4-9) 감성기호(이모지, Emoji)  
+4-10) 유튜브 동영상 연결  
+4-11) 수학식 표현  
+- codecogs에서 `gif` 파일을 만들어 내려받고, 연결로 표현
+- codecogs의 latex 로 직접 표현
 
 ---
-## 1. 표식하기(Markdown)는 무엇인가?
+## 1 표식하기(Markdown)는 무엇인가?
+
 표식하기([Markdown](http://daringfireball.net/projects/markdown/))는 웹에서 문자 서식을 지정하는 방법이다. 문서의 표시를 제어한다; 단어를 강조 또는 기울임으로 양식화, 이미지 추가, 그리고 목록 만들기는 표식하기로 할 수 있는 단지 몇 가지 이다. 주로, 표식하기는 알파벳이 아닌 기호가 몇 개 있는 일 반 문자이다, `#` 또는 `*` 같은.
 
 표식하기는 깃허브 대부분의 공간에서 사용할 수 있다:
@@ -45,9 +87,9 @@
 더 자세한 정보는, 깃허브 도우미에서 "[깃허브에 기록(Writing on Github)](https://help.github.com/categories/writing-on-github/)"을 참조.
 
 ---
-## 2. 본보기(Examples)
+## 2 본보기(Examples)
 
-### 2-1) 문자
+### 2-1) 간략한 본보기(Examples)
 ```bash
 표식하기로 어떤 단어를 **강조** 그리고 다른 단어의 *기울임* 을 아주 쉽게 만들 수 있다.
 심지어 [구글에 연결!](http://google.com)을 할 수 있다.
@@ -55,7 +97,7 @@
 표식하기로 어떤 단어를 **강조** 그리고 다른 단어의 *기울임* 을 아주 쉽게 만들 수 있다.  
 심지어 [구글에 연결!](http://google.com)을 할 수 있다.
 
-### 2-2) 목록
+### 2-2) 목록 형식
 ```
 때로는 순번있는 목록이 필요하다:
 1. 일
@@ -89,7 +131,8 @@
   - 이것처름
   - 그리고 이것처럼
 
-### 2-3) 이미지
+### 2-3) 이미지 연결  
+
 이미지 소박이가 필요하다면, 이것을 어떻게 하는가:
 ```
 <p align="left"><img width="10%" src="images/yaktocat.png" /></p>   <= 좌측정렬, 원본크기의 10%
@@ -133,18 +176,18 @@
 >> 커피. 지금까지 고안된 최고급 유기물이다... 나는 이것으로 보르그를 이겼다.
 >> -캡틴 제인웨이
 
-### 2-5) 코드
+### 2-5) 코드 표현
 ```
-깃허브의 표식하기로 코드를 꾸미기 위한 다양한 방법이 있다.
-인라인 코드 덩이가 있다면, 역따옴표로 감싼다: `var example = true`.
-좀더 긴 코드덩이를 가지고 있다면, 4개의 공백으로 들여쓸 수 있다:
+깃허브의 표식하기로 코드를 꾸미기 위한 다양한 방법이 있다.  
+인라인 코드 덩이가 있다면, 역따옴표로 감싼다: `var example = true`.  
+좀더 긴 코드덩이를 가지고 있다면, 4개의 공백으로 들여쓸 수 있다:  
 
     if (isAwesome)
     {
         return true
     }
 
-깃허브는 또한 코드울타리 라는것을 지원한다,
+깃허브는 또한 코드울타리 라는것을 지원한다,  
 이것은 들여쓰기가 없는 여러 행을 허용한다:
   ` ` `
   if (isAwesome)
@@ -168,17 +211,17 @@
   }
   ` ` `
 ```
-깃허브의 표식하기로 코드를 꾸미기 위한 다양한 방법이 있다.
-인라인 코드 덩이가 있다면, 역따옴표로 감싼다: `var example = true`.
-좀더 긴 코드덩이를 가지고 있다면, 4개의 공백으로 들여쓸 수 있다:
+깃허브의 표식하기로 코드를 꾸미기 위한 다양한 방법이 있다.  
+인라인 코드 덩이가 있다면, 역따옴표로 감싼다: `var example = true`.  
+좀더 긴 코드덩이를 가지고 있다면, 4개의 공백으로 들여쓸 수 있다:  
 
     if (isAwesome)  
     {  
         return true  
     }  
 
-깃허브는 또한 코드울타리 라는것을 지원한다,
-이것은 들여쓰기가 없는 여러 행을 허용한다:
+깃허브는 또한 코드울타리 라는것을 지원한다,  
+이것은 들여쓰기가 없는 여러 행을 허용한다:  
   ```
   if (isAwesome)
   {
@@ -201,7 +244,7 @@
   }
   ```
 
-### 6) 추가기능
+### 2-6) 추가기능
 ```
 깃허브는 표식하기에서 사람에게 문의및 연결등의 많은 추가기능을 지원한다.
 만약 누군가에게 의견을 직접 보내기를 원한다면,
@@ -237,7 +280,7 @@
 > 참조: [그림상징(이모티콘) 보기](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ---
-## 3. 문법 안내(Syntax guide)
+## 3 문법 안내(Syntax guide)
 다음은 표식하기 문법의 요약이다 이것은 GitHub.com의 어디에서나 또는 자신의 문자 파일에서 사용할 수 있다.
 
 ### 3-1) 기본문법
@@ -477,52 +520,64 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 ### 4-11) 수학식 표현
 수학식이 표현되는지 확인
 
+- 1) 수식을 표현하기 위해 https://latex.codecogs.com/eqneditor/editor.php 주소를 방문한다  
+- 2) 수식입력창에 원하는 수식을 입력한다  
+- 3) ![수식-latex.png](./images/수식-latex.png)  
+- 4) 하단에 표현된 수식을 마우스 오른쪽 버튼을 누른다  
+- 5) 튀어오름 메뉴에서 _"이미지를 다른이름으로 저장"_ 을 선택하여 저장한다  
+- 6) 저장한 수식을 **그림연결** 표식하기로 수식그림파일을 연결한다  
+
+
 #### 4-11-1) 수학식을 latex 방식으로 그린다
 
-```
-![수식](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
-```
-> ![수식](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+- codecogs의 gif.latex 로 직접 표현
 
-```
+```  
+![수식](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+```  
+![수식](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+
+
+- codecogs의 svg.latex 로 직접 표현
+
+```  
+- \Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
 
+- x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 <img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+- (w^{ij}_{n})_{new} = (w^{ij}_{n})_{old} - eta \cdot \left ( \frac{\partial E^P_n}{\partial w^{ij}_n} \right )
+<img src="https://latex.codecogs.com/svg.latex?\;(w^{ij}_{n})_{new} = (w^{ij}_{n})_{old} - eta \cdot \left ( \frac{\partial E^P_n}{\partial w^{ij}_n} \right )" title="x" />
+
+- \frac{\partial E^P_{n-1}}{\partial x^{k}_{n-1}} = \sum_i w^{ik}_{n} \cdot \frac{\partial E^P_n}{\partial y^i_n}
+<img src="https://latex.codecogs.com/svg.latex?\;\frac{\partial E^P_{n-1}}{\partial x^{k}_{n-1}} = \sum_i w^{ik}_{n} \cdot \frac{\partial E^P_n}{\partial y^i_n}" title="x" />
+```  
+  - \Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}  
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+  - x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}  
+  <img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+  - (w^{ij}_{n})_{new} = (w^{ij}_{n})_{old} - eta \cdot \left ( \frac{\partial E^P_n}{\partial w^{ij}_n} \right )  
+  <img src="https://latex.codecogs.com/svg.latex?\;(w^{ij}_{n})_{new} = (w^{ij}_{n})_{old} - eta \cdot \left ( \frac{\partial E^P_n}{\partial w^{ij}_n} \right )" title="x" />  
+
+  - \frac{\partial E^P_{n-1}}{\partial x^{k}_{n-1}} = \sum_i w^{ik}_{n} \cdot \frac{\partial E^P_n}{\partial y^i_n}  
+  <img src="https://latex.codecogs.com/svg.latex?\;\frac{\partial E^P_{n-1}}{\partial x^{k}_{n-1}} = \sum_i w^{ik}_{n} \cdot \frac{\partial E^P_n}{\partial y^i_n}" title="x" />
+
 ```
-> <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
-
-> <img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
-
+- \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+![Large](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
 ```
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
-```
-> ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
+> ![Large](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
 
 
-#### 4-11-2) 수학식을 HTML 방식으로 표현
+#### 4-11-2) 아주 간단한 수학식은 HTML 방식으로 표현
 
 ```
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 ```
 > h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x 
-
-
-#### 4-11-3) 수학식을 한줄에 표현 또는 문장안에 삽입
-
-```
-$ \sum_{\forall i}{x_i^{2}} $
-```
-> $ \sum_{\forall i}{x_i^{2}} $
-
-```
-$$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
-```
-> $$ \text{loss} = -\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i} $$
-
-```
-$$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
-```
-> $$e^{-\frac{1}{N}\sum_{i=1}^{N} \ln p_{\text{target}_i}} = e^{\text{loss}} $$
 
 
 ---
