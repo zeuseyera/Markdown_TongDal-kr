@@ -661,7 +661,7 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 
 - 표현할 수식의 시작과 끝에 '$'를 하나씩 추가한다.
 
-> ```math
+> ```t
 > 문장을 작성중에 $수식: x = a_1 * x^2$ 처럼 표현하면 문장내에 표현할 수 있음.
 > ```
 > 
@@ -673,7 +673,7 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 
 > 본보기 1
 
-```math
+```t
 $$Pr(Class_i|Object) ∗ Pr(Object) ∗ IOU^{truth}_{pred} = Pr(Class_i) ∗ IOU^{truth}_{pred} \qquad (1)$$
 ```
 
@@ -681,7 +681,7 @@ $$Pr(Class_i|Object) ∗ Pr(Object) ∗ IOU^{truth}_{pred} = Pr(Class_i) ∗ IOU
 
 > 본보기 2
 
-```math
+```t
 $$\phi(x) = \begin{cases} x, & x > 0 \mathsf{\mbox{ 이면}} \\
  0.1x, & \mathsf{\mbox{아니면}} \end{cases} \qquad (2)$$
 ```
@@ -691,7 +691,7 @@ $$\phi(x) = \begin{cases} x, & x > 0 \mathsf{\mbox{ 이면}} \\
 
 > 본보기 3
 
-```math
+```t
 $$ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0}\ \sum^{B}_{j=0}\ \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (x_i - \hat{x}_i)^2 + (y_i - \hat{y}_i)^2 \right] \qquad \qquad \qquad \qquad $$  
 
 $$ \qquad +\ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0} \sum^{B}_{j=0} \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (\sqrt{w_i} - \sqrt{\hat{w}_i})^2 + (\sqrt{h_i} - \sqrt{\hat{h}_i})^2 \right] $$  
