@@ -672,37 +672,37 @@ alt="이미지 대체문자는 여기에" width="240" height="180" border="10" /
 - 표현할 수식의 시작과 끝에 '$'를 두개씩 추가한다.
 
 > 본보기 1
-> 
-> ```math
-> $$Pr(Class_i|Object) ∗ Pr(Object) ∗ IOU^{truth}_{pred} = Pr(Class_i) ∗ IOU^{truth}_{pred} \qquad (1)$$
-> ```
-> 
+
+```math
+$$Pr(Class_i|Object) ∗ Pr(Object) ∗ IOU^{truth}_{pred} = Pr(Class_i) ∗ IOU^{truth}_{pred} \qquad (1)$$
+```
+
 > $$Pr(Class_i|Object) ∗ Pr(Object) ∗ IOU^{truth}_{pred} = Pr(Class_i) ∗ IOU^{truth}_{pred} \qquad (1)$$
 
 > 본보기 2
-> 
-> ```math
-> $$\phi(x) = \begin{cases} x, & x > 0 \mathsf{\mbox{ 이면}} \\
->  0.1x, & \mathsf{\mbox{아니면}} \end{cases} \qquad (2)$$
-> ```
-> 
+
+```math
+$$\phi(x) = \begin{cases} x, & x > 0 \mathsf{\mbox{ 이면}} \\
+ 0.1x, & \mathsf{\mbox{아니면}} \end{cases} \qquad (2)$$
+```
+
 > $$\phi(x) = \begin{cases} x, & x > 0 \mathsf{\mbox{ 이면}} \\
 >  0.1x, & \mathsf{\mbox{아니면}} \end{cases} \qquad (2)$$
 
 > 본보기 3
->
-> ```math
-> $$ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0}\ \sum^{B}_{j=0}\ \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (x_i - \hat{x}_i)^2 + (y_i - \hat{y}_i)^2 \right] \qquad \qquad \qquad \qquad $$  
-> 
-> $$ \qquad +\ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0} \sum^{B}_{j=0} \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (\sqrt{w_i} - \sqrt{\hat{w}_i})^2 + (\sqrt{h_i} - \sqrt{\hat{h}_i})^2 \right] $$  
-> 
-> $$ \qquad +\ \sum^{S^2}_{i=0} \sum^{B}_{j=0} \mathbb{1}^{\mathsf{obj}}_{ij} \left( C_i - \hat{C}_i \right)^2 \qquad \qquad \qquad \qquad \qquad \qquad $$  
-> 
-> $$ \qquad +\ \lambda_{ \mathsf{noobj} }\ \sum^{S^2}_{i=0}\ \sum^{B}_{j=0} \mathbb{1}^{ \mathsf{noobj} }_{ij} \left( C_i - \hat{C}_i \right)^2 \qquad \qquad \qquad \qquad $$  
-> 
-> $$ \qquad +\ \sum^{S^2}_{i=0}\ \mathbb{1}^{ \mathsf{obj} }_{i}\ \sum_{ c \in \mathsf{classes} } \left( p_i(c) - \hat{p}_i(c) \right)^2 \qquad \qquad \qquad (3) $$  
-> ```
-> 
+
+```math
+$$ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0}\ \sum^{B}_{j=0}\ \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (x_i - \hat{x}_i)^2 + (y_i - \hat{y}_i)^2 \right] \qquad \qquad \qquad \qquad $$  
+
+$$ \qquad +\ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0} \sum^{B}_{j=0} \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (\sqrt{w_i} - \sqrt{\hat{w}_i})^2 + (\sqrt{h_i} - \sqrt{\hat{h}_i})^2 \right] $$  
+
+$$ \qquad +\ \sum^{S^2}_{i=0} \sum^{B}_{j=0} \mathbb{1}^{\mathsf{obj}}_{ij} \left( C_i - \hat{C}_i \right)^2 \qquad \qquad \qquad \qquad \qquad \qquad $$  
+
+$$ \qquad +\ \lambda_{ \mathsf{noobj} }\ \sum^{S^2}_{i=0}\ \sum^{B}_{j=0} \mathbb{1}^{ \mathsf{noobj} }_{ij} \left( C_i - \hat{C}_i \right)^2 \qquad \qquad \qquad \qquad $$  
+
+$$ \qquad +\ \sum^{S^2}_{i=0}\ \mathbb{1}^{ \mathsf{obj} }_{i}\ \sum_{ c \in \mathsf{classes} } \left( p_i(c) - \hat{p}_i(c) \right)^2 \qquad \qquad \qquad (3) $$  
+```
+
 > $$ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0}\ \sum^{B}_{j=0}\ \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (x_i - \hat{x}_i)^2 + (y_i - \hat{y}_i)^2 \right] \qquad \qquad \qquad \qquad $$  
 > 
 > $$ \qquad +\ \lambda_{ \mathsf{coord} } \sum^{S^2}_{i=0} \sum^{B}_{j=0} \mathbb{1}^{ \mathsf{obj} }_{ij} \left[ (\sqrt{w_i} - \sqrt{\hat{w}_i})^2 + (\sqrt{h_i} - \sqrt{\hat{h}_i})^2 \right] $$  
